@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.bodywrap {
+  width: 1280px;
+  margin: 0 auto;
+  border: 1px solid #CED4DA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.sidebar {
+  width: 296px;
+  padding: 32px 0 32px 32px;
+  background-color: #F8F9FA; }
+  .sidebar .sidebar-header {
+    margin-bottom: 32px; }
+  .sidebar .sidebar-link a {
+    color: #000;
+    line-height: 24px;
+    margin-left: 16px; }
+  .sidebar .sidebar-link li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 26px; }
+  .sidebar .sidebar-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 360px; }
+    .sidebar .sidebar-footer img {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      margin-right: 16px; }
+    .sidebar .sidebar-footer p {
+      line-height: 24px; }
+    .sidebar .sidebar-footer a {
+      line-height: 24px;
+      font-size: 14px;
+      color: #6C757D; }
+
+.user-list {
+  width: 936px;
+  margin: 32px auto;
+  position: relative; }
+  .user-list .user-list-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .user-list .admin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .user-list .admin h2 {
+      font-size: 24px;
+      line-height: 33px;
+      margin-right: 47px; }
+    .user-list .admin .btn {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .user-list .admin .btn span {
+        color: #198754; }
+  .user-list .list-group-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 20px 0; }
+  .user-list .list-group-item p:nth-child(1) {
+    width: 10%; }
+  .user-list .list-group-item p:nth-child(2) {
+    width: 20%; }
+  .user-list .list-group-item p:nth-child(3) {
+    width: 40%; }
+  .user-list .list-group-item p:nth-child(4) {
+    width: 20%; }
+  .user-list .list-group-item .edit {
+    width: 10%; }
+  .user-list nav {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+    .user-list nav .page-link {
+      border: 1px solid #198754;
+      color: #000; }
+      .user-list nav .page-link span {
+        color: #198754; }
+    .user-list nav .page-link:hover {
+      background-color: #198754;
+      color: #fff; }
+      .user-list nav .page-link:hover span {
+        color: #fff; }
+
+/*# sourceMappingURL=all.css.map */

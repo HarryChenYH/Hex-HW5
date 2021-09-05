@@ -1,10 +1,60 @@
----
-title: 首頁
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>首頁</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header></header>
+  <div class="bodywrap">
+    <div class="sidebar">
+      <a href="index.html">
+        <img class="sidebar-header" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg" alt="logo">
+      </a>
+      <ul class="sidebar-link">
+        <li>
+          <span class="material-icons">dashboard</span>
+          <a href="#">Dashboard</a>
+        </li>
+        <li>
+          <span class="material-icons">question_answer</span>
+          <a href="#">Question</a>
+        </li>
+        <li>
+          <span class="material-icons">assignment</span>
+          <a href="#">Assignment</a>
+        </li>
+        <li>
+          <span class="material-icons">shop_two</span>
+          <a href="#">Course</a>
+        </li>
+        <li>
+          <span class="material-icons">supervisor_account</span>
+          <a href="#">Admin</a>
+        </li>
+        <li>
+          <span class="material-icons">settings</span>
+          <a href="#">Setting</a>
+        </li>
+      </ul>
+      <ul class="sidebar-footer">
+        <li>
+          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="big head">
+        </li>
+        <li>
+          <p>Andy Chen</p>
+          <a href="mailto:andy0401@mail.com">andy0401@mail.com</a>
+        </li>
+      </ul>
+    </div>
+    
 <div class="user-list">
     <div class="user-list-header">
         <div class="admin">
@@ -130,3 +180,10 @@ current: index
         </ul>
     </nav>
 </div>
+  </div>
+  <footer></footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
