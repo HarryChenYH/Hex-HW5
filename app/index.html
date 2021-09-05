@@ -1,0 +1,132 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="user-list">
+    <div class="user-list-header">
+        <div class="admin">
+            <h2>Admin</h2>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <span class="material-icons">add</span>
+                Add New Admin
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="admin-icon">
+            <a href="#"><span class="material-icons">search</span></a>
+            <a href="#"><span class="material-icons">notifications</span></a>
+        </div>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <p>ID</p>
+            <p>Name</p>
+            <p>Email</p>
+            <p>Verified</p>
+            <div class="edit"><p></p></div>
+        </li>
+        <li class="list-group-item">
+            <p>#1</p>
+            <p>Emir Wicks</p>
+            <p>emir.wicks@mail.com</p>
+            <p>Yes</p>
+            <div class="edit">
+                <a class="material-icons" data-bs-toggle="modal" data-bs-target="#staticBackdrop">remove_red_eye</a>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <!-- <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Understood</button>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                <span class="material-icons">edit</span>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <p>#2</p>
+            <p>Zaina Goldsmith</p>
+            <p>zaina.goldsmith@mail.com</p>
+            <p>Yes</p>
+            <div class="edit">
+                <span class="material-icons">remove_red_eye</span>
+                <span class="material-icons">edit</span>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <p>#3</p>
+            <p>Mahima Lopez</p>
+            <p>mahima.lopez@mail.com</p>
+            <p>Yes</p>
+            <div class="edit">
+                <span class="material-icons">remove_red_eye</span>
+                <span class="material-icons">edit</span>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <p>#4</p>
+            <p>Pharrell Murray</p>
+            <p>pharrell.murray@mail.com</p>
+            <p>Yes</p>
+            <div class="edit">
+                <span class="material-icons">remove_red_eye</span>
+                <span class="material-icons">edit</span>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <p>#5</p>
+            <p>Annika Mcbride</p>
+            <p>annika.mcbride@mail.com</p>
+            <p>Yes</p>
+            <div class="edit">
+                <span class="material-icons">remove_red_eye</span>
+                <span class="material-icons">edit</span>
+            </div>
+        </li>
+    </ul>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&lt;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&gt;</span>
+            </a>
+          </li>
+        </ul>
+    </nav>
+</div>
